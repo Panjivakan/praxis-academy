@@ -1,0 +1,70 @@
+1. date /t
+	Wed 10/14/2020
+
+2. color 1a (a = kode warna)
+	tulisan dan background akan berubah sesuai kode.
+	untuk melihat kodenya lakukan di nomor 3
+
+3. color help atau color /?
+	menampilkan attribute warna
+
+4. if not exist filetidakada.dll echo Cannot find data file
+	Cannot find data file
+
+5. cd nama_folder/directory
+	masuk ke folder tersebut
+
+6. cd..
+	keluar dari folder/directory
+
+7. dir
+	melihat semua isi dalam folder tersebut
+
+8. md nama_folder
+	membuat folder baru // jangan pake spasi karna akan buat folder 	lagi dengan nama setelah spasi
+
+9. mkdir nama_folder
+	untuk membuat folder juga
+
+10. rd nama_folder
+	untuk menghapus folder (rd /q "folder dengan spasi"
+
+11. copy con nama_file.extensinya (copy con coba.txt)
+	1 file(s) copied.
+
+12 copy nama_file alamat untuk mengcopy (copy coba.txt d:\latihan)
+	1 file(s) copied.
+
+13. rename nama_folder_lama nama_folder_baru (rename coba cobi)
+	merubah nama folder
+
+14. pause
+	Press any key to continue . . .
+
+15. move nama_file alamat (move coba.txt d:\coba2)
+	1 file(s) moved.
+
+16. cls
+	membersikan semua ketikan kita
+
+17. prompt $T
+	12:58:01.74
+
+18. ping 8.8.8.8
+
+	Pinging 8.8.8.8 with 32 bytes of data:
+	Reply from 8.8.8.8: bytes=32 time=29ms TTL=118
+	Reply from 8.8.8.8: bytes=32 time=54ms TTL=118
+	Reply from 8.8.8.8: bytes=32 time=25ms TTL=118
+	Reply from 8.8.8.8: bytes=32 time=24ms TTL=118
+
+	Ping statistics for 8.8.8.8:
+	    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+	    Minimum = 24ms, Maximum = 54ms, Average = 33ms
+
+19. type test.txt
+	as (menampilkan isi dari test.txt)
+
+20. exit
+	keluar dari cmd
